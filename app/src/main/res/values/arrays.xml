@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="times">
+        <item>@string/selecaoPadrao</item>
+        <item>@string/selecao1</item>
+        <item>@string/selecao2</item>
+        <item>@string/selecao3</item>
+        <item>@string/selecao4</item>
+        <item>@string/selecao5</item>
+        <item>@string/selecao6</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aula02</string>
+    <string name="titulo">Time S2</string>
+    <string name="desenvolvido_por">Desenvolvido por S2</string>
+    <string name="lblNome">Digite seu Nome</string>
+    <string name="txtIdade">Digite sua Idade</string>
+    <string name="selecaoPadrao">Selecione o Time</string>
+    <string name="selecao1">São Paulo</string>
+    <string name="selecao2">Palmeiras</string>
+    <string name="selecao3">Santos</string>
+    <string name="selecao4">Curintia</string>
+    <string name="selecao5">Flamengo</string>
+    <string name="selecao6">Botafogo</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="respostaPadrao">Olá %1$s, você tem %2$s anos e torce para o %3$s.</string>
+</resources>

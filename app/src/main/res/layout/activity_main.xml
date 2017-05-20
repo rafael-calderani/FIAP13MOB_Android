@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/size16"
+    tools:context="com.example.logonpf.aula02.MainActivity">
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        style="@style/label_time_s2"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lblTitulo"
+        android:layout_above="@+id/lblRodape">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lblTitulo"
+                    android:hint="@string/lblNome"
+                    android:layout_margin="@dimen/size16" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tilIdade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/txtIdade"
+                    android:inputType="number"
+                    android:layout_margin="@dimen/size16" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/spnTimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/times"></Spinner>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cadastrar"
+                android:text="@string/cadastrar"
+                android:layout_margin="@dimen/size16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/lblRodape"
+        style="@style/label_desenvolvido_por"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
