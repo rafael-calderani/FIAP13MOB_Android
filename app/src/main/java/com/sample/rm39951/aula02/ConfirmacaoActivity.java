@@ -1,4 +1,4 @@
-package com.example.logonpf.aula02;
+package com.sample.rm39951.aula02;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

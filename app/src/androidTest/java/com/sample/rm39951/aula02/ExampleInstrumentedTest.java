@@ -1,4 +1,4 @@
-package com.example.logonpf.aula02;
+package com.sample.rm39951.aula02;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
