@@ -13,4 +13,5 @@
     <string name="selecao6">Botafogo</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="respostaPadrao">Olá %1$s, você tem %2$s anos e torce para o %3$s.</string>
+    <string name="strVoltar">Voltar</string>
 </resources>

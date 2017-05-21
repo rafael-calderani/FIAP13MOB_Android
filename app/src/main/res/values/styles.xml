@@ -19,7 +19,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/titulo</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">@dimen/tamanho_titulo</item>
+        <item name="android:textSize">@dimen/texto20</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/cor_titulo</item>
         <item name="android:layout_marginBottom">@dimen/size30</item>
@@ -27,6 +27,6 @@
 
     <style name="label_desenvolvido_por" parent="label_time_s2">
         <item name="android:text">@string/desenvolvido_por</item>
-        <item name="android:textSize">@dimen/tamanho_desenvolvido_por</item>
+        <item name="android:textSize">@dimen/texto12</item>
     </style>
 </resources>

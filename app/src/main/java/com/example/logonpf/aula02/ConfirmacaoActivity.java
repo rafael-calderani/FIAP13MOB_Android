@@ -1,5 +1,6 @@
 package com.example.logonpf.aula02;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +27,9 @@ public class ConfirmacaoActivity extends AppCompatActivity {
     }
 
     public void voltarMain(View view) {
-        if(getIntent() != null) {
+        Intent i = getIntent();
+        if(i != null) {
+            this.finish();
         }
     }
 }
